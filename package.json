@@ -1,0 +1,19 @@
+{
+  "name": "nocera-billing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nocera Gifts counter billing app: products, cart checkout, Stripe QR payments, cash, sales reports and exports.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "3.1143.0",
+    "express": "4.22.3",
+    "pg": "8.23.0",
+    "stripe": "22.6.2"
+  }
+}
